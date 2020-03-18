@@ -1,5 +1,5 @@
 // alert("Welcome to index page")
-console.log("welcome");
+
 
 const weather = document.querySelector('form')
 const search = document.querySelector('input')
