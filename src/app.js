@@ -6,6 +6,7 @@ const forecast = require('./utilte/forcast')
 
 // express configration
 const app =express()
+const port = process.env.PORT || 3000
 const Dir = path.join(__dirname,'../public')
 const viewsPath = path.join(__dirname,'../tempaletes/views')
 const partialPath = path.join(__dirname,'../tempaletes/partials')
