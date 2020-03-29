@@ -14,7 +14,9 @@ const forecast =(latitude,longtude,callback)=>{
                 timezone:body.timezone,
                 temp:body.currently.temperature,
                 Probability :body.currently.precipProbability,
-                summary:body.daily.data[0].summary
+                summary:body.daily.data[0].summary,
+                tempHigh:body.daily.data[0].temperatureHigh,
+                tempLow:body.daily.data[0].temperatureLow
             })
         }
     })

@@ -20,7 +20,7 @@ res.json().then((data)=>{
     }
     else{
         msg1.textContent = data.place
-        msg2.textContent = data.features.timezone+" temperature "+data.features.temp
+        msg2.textContent = data.features.timezone+" temperature "+data.features.temp+" High temperature :"+data.features.tempHigh+" Low temperature :"+data.features.tempLow
     }
         })
     })
